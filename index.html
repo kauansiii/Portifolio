@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
+    <title>port</title>
+</head>
+<body class="dark:bg-gray-900">
+
+
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-indigo-600 dark:text-indigo-500">KauanDev</span>
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button type="button" class="text-white dark:bg-indigo-500 bg-indigo-700 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-400 font-medium rounded-lg text-sm px-4 py-2">Começar</button>
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Abrir o menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="#inicio" class="block py-2 px-3 text-gray-900 bg-indigo-600 rounded-sm md:bg-transparent md:dark:text-white md:hover:text-indigo-600 md:p-0 " aria-current="page">Inicio</a>
+              </li>
+              <li>
+                <a href="#sobre" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-indigo-600 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 dark:md:hover:text-indigo-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre</a>
+              </li>
+              <li>
+                <a href="#projetos" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-indigo-600 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 dark:md:hover:text-indigo-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projetos</a>
+              </li>
+              <li>
+                <a href="#certificados" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-indigo-600 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 dark:md:hover:text-indigo-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Certificados</a>
+              </li>
+            </ul>
+          </div>          
+        </div>
+      </nav>
+  
+
+  <section id="inicio" class="flex flex-col items-center justify-center text-center min-h-screen dark:bg-gray-900">
+    <div class="grid max-w-screen-xl px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-7 text-left">
+            <h1 class="max-w-2xl mb-2 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-indigo-800 dark:text-white">Olá! Me chamo KauanDev</h1>
+            <p class="max-w-3xl mb-2 font-light text-gray-500 lg:mb-2 md:text-lg lg:text-xl text-indigo-800 dark:text-white">Transformo minha imaginação em código!</p>
+            <a href="#" class="inline-flex items-center justify-start px-5 py-3 mr-8 text-base font-medium text-center text-white  rounded-lg dark:bg-indigo-500 bg-indigo-700 hover:bg-indigo-600 focus:ring-indigo-900 ">
+                Entre em contato
+                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img src="Kauan.svg" alt="mockup">
+        </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="flex flex-col items-center justify-center text-center py-6 mb-4 dark:bg-gray-900 min-h-[30vh]">
+      <h1 class="dark:text-indigo-500 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-3xl text-indigo-800">
+          Sobre mim
+      </h1>
+      <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-white">
+          Olá! Me chamo Kauan, tenho 17 anos e sou desenvolvedor front-end e designer gráfico. Sempre fui apaixonado por tecnologia e design, e hoje transformo essa paixão em projetos criativos e funcionais.
+
+          Trabalho com HTML, CSS e ferramentas de design como Figma, criando interfaces modernas e intuitivas. Meu objetivo é desenvolver soluções que sejam visualmente atraentes e proporcionem a melhor experiência para os usuários.
+      </p>
+  </section>
+
+  <section id="projetos" class="flex flex-col items-center justify-center text-center  py-6 mb-4 min-h-[90vh]">
+      <h1 class="dark:text-indigo-500 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-3xl text-indigo-800 mb-6">
+          Projetos
+      </h1>
+
+      <div id="default-carousel" class="relative w-full max-w-screen-md mx-auto" data-carousel="slide">
+          <!-- Carousel wrapper -->
+          <div class="relative h-64 md:h-80 overflow-hidden rounded-lg">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="doeit.jpg" class="w-full h-full object-cover object-[50%_60%]" alt="Projeto DoeIT">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="password.jpg" class="w-full h-full object-cover" alt="Projeto Password">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="lybris.jpg" class="w-full h-full object-cover object-[50%_15%]" alt="Projeto 3">
+            </div>
+        </div>
+
+          <!-- Slider indicators -->
+          <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          </div>
+
+          <!-- Slider controls -->
+          <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800/30 dark:bg-white-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                  <svg class="w-4 h-4 text-gray-800 dark:text-indigo-500 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                  </svg>
+                  <span class="sr-only">Previous</span>
+              </span>
+          </button>
+          <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800/30 dark:bg-white-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                  <svg class="w-4 h-4 text-gray-800 dark:text-indigo-500 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                  </svg>
+                  <span class="sr-only">Next</span>
+              </span>
+          </button>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section id="certificados" class="flex flex-col items-center justify-center text-center py-6 mb-4 min-h-[60vh]">
+    <h1 class="dark:text-indigo-500 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-3xl text-indigo-800 mb-24">
+        Certificados
+    </h1>
+
+
+
+
+    
+
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center md:gap-6">
+
+        <a href="#certificados" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Eretec</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Certificação de Participação e organização do evento Eretec 2024.</p>
+        </a>
+
+
+        <a href="#certificados" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lider do laboratório</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Certificação da liderança do laboratório de informatica da EEEP Maria Célia Pinheiro Falcão.</p>
+        </a>
+
+        <a href="#certificados" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">AWS Cloud Foundations</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Certificação da conclusão do curso da AWS Cloud Foundations.</p>
+        </a>
+
+    </div>
+    
+
+
+
+    </section>
+
+
+    <section class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center mb-16">
+        <div class="flex items-center flex-row justify-evenly space-x-8">    
+            <a href="https://github.com/kauansiii" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Git Hub</a>
+            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Linkedin</a>
+        </div>
+    </section>
+
+  
+
+  <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/" class="hover:underline">SonecaDev</a>. All Rights Reserved.
+    </span>
+    </div>
+  </footer>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
